@@ -3,9 +3,13 @@ import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
+import { GitHubButton } from '../Navbar/NavbarStyledComponent'
+import { useTheme } from 'styled-components'
+import { Bio } from '../../data/constants';
 
 
 const Projects = ({openModal,setOpenModal}) => {
+  const theme = useTheme()
   const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
@@ -39,6 +43,7 @@ const Projects = ({openModal,setOpenModal}) => {
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>
+        <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="https://github.com/TanvNaik?tab=repositories" target="_blank">More Projects</GitHubButton>
       </Wrapper>
     </Container>
   )
