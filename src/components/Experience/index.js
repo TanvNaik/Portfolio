@@ -79,7 +79,7 @@ const index = () => {
         <Container id="experience">
             <Wrapper>
                 <Title>Experience</Title>
-                <Desc>
+                <Desc>Where I’ve Been and What I’ve Built – My Experience in the Tech World
                      </Desc>
                 <TimelineSection>
                     <Timeline>
