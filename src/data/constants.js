@@ -141,7 +141,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Equations Work",
     date: "September 2024 - Present",
-    desc: "Worked on AI-driven projects with LangGraph and Autogen to enhance automation solutions",
+    desc: "Currently leading and contributing to AI-driven automation solutions using cutting-edge technologies like LangGraph and Autogen. Collaborating across teams to design and implement intelligent workflows, integrate scalable backend services, and optimize performance in real-time applications. Delivering production-ready features using React.js, Node.js, and Angular.",
     skills: [
       "Reactjs",
       "Node",
@@ -157,7 +157,7 @@ export const experiences = [
     role: "Trainee Software Engineer",
     company: "Equations Work",
     date: "March 2024 - August 2024",
-    desc: " Developed applications using React.js, Node.js, and AngularJS",
+    desc: "Participated in the full software development lifecycle, from requirement analysis to deployment. Gained hands-on experience with modern frameworks including React.js, Node.js, and Angular. Collaborated on internal tools and client-facing applications, ensuring clean architecture, responsiveness, and efficient performance.",
     skills: [
       "Reactjs",
       "Node",
@@ -171,7 +171,7 @@ export const experiences = [
     role: "Web Developer Intern",
     company: "Silicon Garage",
     date: "Jan 2022 - Apr 2022",
-    desc: "Developed multiple projects utilizing Flask and Bootstrap, including applications for inventory management, e-commerce platforms, and more.",
+    desc: "Designed and developed a suite of web applications for inventory management, e-commerce, and administrative portals. Utilized Flask for backend development and Bootstrap for responsive UI. Integrated Firebase and SQLite for data storage, and implemented secure user authentication systems. Strengthened problem-solving skills through real-world coding challenges and agile collaboration.",
     skills: [
       "Flask",
       "Firebase",
