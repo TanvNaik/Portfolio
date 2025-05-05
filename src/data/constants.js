@@ -116,7 +116,7 @@ export const skills = [
       {
         name: "Redux",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://devicons.railway.com/i/redux.svg",
       },
       {
         name: "VS Code",
@@ -219,36 +219,123 @@ export const education = [
   }
 ];
 
-// TODO: Add my projects
 export const projects = [
   
-  {
-    id: 0,
-    title: "Twinkle Bee",
-    date: "Feb 2023 - Apr 2023",
-    description:
-      "Developed a MERN-based website centered around babysitting services, aiming to streamline the process for parents and offer them convenience and reassurance. Integrated Stripe payment gateway and Jwt Auth for secure transactions, alongside crafting a user-friendly interface using React JS and Bootstrap, ensuring a smooth and adaptable experience on various devices. Ultimately, the goal was to save parents time while simplifying the search and hiring of babysitters.",
-    image:
-      "https://private-user-images.githubusercontent.com/67183737/290983895-cf30fc58-3671-4f78-87ba-94272a2763f4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI3MjAwNzgsIm5iZiI6MTcwMjcxOTc3OCwicGF0aCI6Ii82NzE4MzczNy8yOTA5ODM4OTUtY2YzMGZjNTgtMzY3MS00Zjc4LTg3YmEtOTQyNzJhMjc2M2Y0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjE2VDA5NDI1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFhMmE4NjQ4ZWY0MzcwYjY4NTNlZWE1Y2Y0MmVmZDc4MjFiMjUyNTM5ZGU5ZjlhYmM0OWUxODE5YjMwYmVlZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5TxPctJBvQw95H_-55YiH1cb0LReBbhdpnL8Vhi5aas",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
-    category: "web app",
-    github: "https://github.com/TanvNaik/TwinkleBee-frontend",
-    webapp: "https://twinklebee.onrender.com/",
-    
-  },
+    {
+      id: 0,
+      title: "Twinkle Bee",
+      date: "Feb 2023 - Apr 2023",
+      description:
+        `<b>Developed a full-stack web application for babysitting services using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to simplify and streamline the process of finding and hiring trusted babysitters.</b><br/><br/>
+        <div style="padding:2%">
+          <ul>
+          <li>Key features include secure JWT-based authentication and seamless online payments via Stripe integration, ensuring user data protection and smooth financial transactions.</li>
+          <li>The front end was built with React.js and styled using Bootstrap, delivering a responsive and intuitive user interface across devices.</li>
+          <li>This platform was built with the core aim of providing convenience and peace of mind to parents, significantly reducing the time and effort required to connect with reliable childcare providers.</li>
+        </ul>
+          </div>
+        
+          `,
+      image:
+        "https://ik.imagekit.io/tanvnaik/twinklebee.png?updatedAt=1746293200238",
+      tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+      category: "web app",
+      github: "https://github.com/TanvNaik/TwinkleBee-frontend",
+      webapp: "https://twinklebee.onrender.com/",
+      
+    },
+    {
+      id: 0,
+      title: "RideAlong",
+      date: "September 2021 - Feb 2022",
+      description:
+        `<b>Developed a carpooling web application, RideAlong, designed to connect drivers and passengers, enabling secure and convenient ride-sharing to reduce traffic congestion and promote sustainable transportation.</b><br/><br/>
+        <div style="padding:2%">
+          <ul>
+            <li>Implemented a secure user authentication system, allowing users to sign up, upload documents, and undergo verification before posting or joining rides.</li>
+            <li>Developed an admin panel for document verification, ensuring only verified users can post and offer rides.</li>
+            <li>Integrated Mapbox to enable users to choose and view exact ride locations, enhancing route visibility and ride coordination.</li>
+            <li>Implemented a Stripe payment gateway for secure and seamless online transactions between riders and drivers.</li>
+            <li>Provided a feedback system where users can rate and review their ride experience to maintain trust and safety within the platform.</li>
+          </ul>
+        </div>
+      `,
+      image:
+        "https://ik.imagekit.io/tanvnaik/image.png?updatedAt=1746466225722",
+      tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+      category: "web app",
+      github: "https://github.com/TanvNaik/TwinkleBee-frontend",
+      webapp: "https://ridealong-carpooling.onrender.com/",
+      
+    },
   {
     id: 0,
     title: "Taskify",
     date: "Nov 2023 - Nov 2023",
     description:
-      "This application, built with ReactJS, serves as a comprehensive task management tool. Its primary focus lies in offering users an intuitive platform to handle tasks effectively while efficiently organizing and monitoring their to-do lists. The user interface is designed with a strong emphasis on simplicity and ease of use, aiming to enhance the overall task management experience.",
-      // TODO: image link
+      `<b>Developed a task management web application using ReactJS, aimed at helping users efficiently organize, track, and manage their daily to-do lists.</b><br/><br/>
+      <div style="padding:2%">
+        <ul>
+          <li>Designed with a clean and responsive UI using React.js and Bootstrap to ensure a seamless experience across devices.</li>
+          <li>Focused on user-centric design to support effortless task creation, categorization, and progress tracking.</li>
+          <li>Built to enhance productivity by offering an intuitive workflow, making task management simple and effective for users.</li>
+        </ul>
+      </div>`,
     image:
-      "https://drive.google.com/file/d/1JMm9_7kXz2APLhEU3thU927LREFPDfd3/view?usp=sharing",
+      "https://ik.imagekit.io/tanvnaik/Taskify.png?updatedAt=1746294371920",
     tags: ["React Js","Bootstrap","SweetAlert", "CSS"],
     category: "web app",
     github: "https://github.com/tanvnaik/Taskify",
     webapp: "https://tanvnaik.github.io/Taskify/",
   
   },
+  {
+    id: 0,
+    title: "LunaPulse",
+    date: "Nov 2023 - Nov 2023",
+    description:
+      `<b>Developed LunaPulse, an interactive 3D web application built for the NASA Space Apps Challenge 2022 (Greater Noida), designed to visualize seismic activity on the Moon using data from Apollo-era instruments.</b><br/><br/>
+      <div style="padding:2%">
+        <ul>
+          <li>Plotted real lunar seismic data on a dynamic 3D globe, offering users an immersive view of moonquake patterns near Apollo landing sites.</li>
+          <li>Utilized WebGL and Three.js to render the lunar surface and map moonquake events with precise geolocation markers.</li>
+          <li>Provided an educational and exploratory experience by allowing users to interact with and analyze historical geophysical data transmitted back to Earth by NASA's deployed instruments.</li>
+          <li>Focused on intuitive user navigation and visual clarity to bridge scientific data with public accessibility and space education.</li>
+        </ul>
+      </div>
+    `,
+    image:
+      "https://ik.imagekit.io/tanvnaik/lunapulse.png?updatedAt=1746293200962",
+    tags: [
+      "JavaScript",
+      "D3.js",
+      "Python",
+      "Globe.gl",
+      "Bootstrap"
+    ]
+    ,
+    category: "web app",
+    github: "https://github.com/TanvNaik/Moonquake-map",
+    webapp: "https://tanvnaik.github.io/Moonquake-map/",
+  
+  },
+];
+
+export const clientWorks = [
+  
+    {
+      id: 0,
+      title: "PrepBook – Official Website",
+      date: "Feb 2023 - Apr 2023",
+      description:
+        `Developed and deployed the official website for PrepBook, an educational platform. The project involved crafting a responsive, mobile-friendly interface using Bootstrap, ensuring cross-browser compatibility, and optimizing load performance. Took full ownership from design to deployment, including domain setup and hosting via Hostinger.
+          `,
+      image:
+        "https://ik.imagekit.io/tanvnaik/image.png?updatedAt=1746464450901",
+      tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+      category: "web app",
+      webapp: "https://prepbookedu.com/",
+      
+    },
+    
 ];
