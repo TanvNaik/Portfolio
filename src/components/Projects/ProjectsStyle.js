@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
     align-items: center;
     flex-direction: column;
     width: 100%;
-    max-width: 1350px;
+    // max-width: 1350px;
     padding: 10px 0px 100px 0;
     gap: 12px;
     @media (max-width: 960px) {

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import DOMPurify from 'dompurify';
 
 
 const Button = styled.button`
@@ -134,7 +135,7 @@ const ProjectCards = ({project,setOpenModal}) => {
             <Details>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Description dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(project.description) }}/>
             </Details>
             <Members>
                 {project.member?.map((member) => (
