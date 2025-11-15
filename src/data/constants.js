@@ -331,7 +331,7 @@ export const clientWorks = [
         `Developed and deployed the official website for PrepBook, an educational platform. The project involved crafting a responsive, mobile-friendly interface using Bootstrap, ensuring cross-browser compatibility, and optimizing load performance. Took full ownership from design to deployment, including domain setup and hosting via Hostinger.
           `,
       image:
-        "https://ik.imagekit.io/tanvnaik/image.png?updatedAt=1746464450901",
+        "https://ik.imagekit.io/tanvnaik/prepbook.png",
       tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
       category: "web app",
       webapp: "https://prepbookedu.com/",
